@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Secondscrn"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:id="@+id/bg">
+
+    <TextView
+        android:id="@+id/user"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:background="#D6B50D"
+        android:textSize="20sp" />
+
+    <Spinner
+        android:dropDownWidth="wrap_content"
+        android:layout_marginTop="50dp"
+        android:id="@+id/spinner"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:entries="@array/Different_taste" />
+
+    <Button
+        android:id="@+id/button"
+        android:padding="10dp"
+        android:textSize="18sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/search_restro"
+        android:layout_marginTop="50dp"/>
+
+    <TextView
+        android:textColor="#000"
+        android:id="@+id/textView"
+        android:layout_marginTop="50dp"
+        android:textSize="18sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">My App</string>
+    <string name="logo">LOGO</string>
+    <string name="email_xyz_gmail_com">Email (xyz@gmail.com)</string>
+    <string name="let_me_in">Let me in!!</string>
+    <string name="search_restro">Search Restro</string>
+    <string-array name="Different_taste">
+        <item>Mexican</item>
+        <item>Italian</item>
+        <item>Chinese</item>
+        <item>South Indian</item>
+        <item>North Indian</item>
+        <item>Sea Food</item>
+        <item>Shut up! And Save Money!</item>
+    </string-array>
+</resources>
